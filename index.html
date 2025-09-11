@@ -177,6 +177,63 @@
         padding: 1rem;
       }
     }
+
+    @media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: none;
+  }
+
+  .sidebar img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0.5rem;
+  }
+
+  .sidebar h1 {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .sidebar p {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .nav-links a {
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .main {
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  section {
+    padding: 1rem;
+  }
+}
+
   </style>
 </head>
 
@@ -300,5 +357,6 @@
 
 
 </html>
+
 
 
